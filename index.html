@@ -1,16 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Bruna Contino</h1> 
-    <p>Graphic Designer and front end developer</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptates rerum officia accusamus nam voluptatum a iste deserunt, mollitia perferendis quod ducimus, sit necessitatibus, quidem pariatur et molestias impedit sint?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptates rerum officia accusamus nam voluptatum a iste deserunt, mollitia perferendis quod ducimus, sit necessitatibus, quidem pariatur et molestias impedit sint?</p>
+<html>
+    <head>
+        <title>Bruna Contino</title>
+        <link 
+            rel="icon" 
+            href="favicon.ico"
+        >
+        <meta property="og:url"                content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
+        <meta property="og:type"               content="article" />
+        <meta property="og:title"              content="When Great Minds Don’t Think Alike" />
+        <meta property="og:description"        content="How much does culture influence creative thinking?" />
+        <meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+        <script>
 
-</body>
+        </script>
+    </head>
+    <body>
+        <form action="#" onsubmit=" ">
+            Questo è il form<br />
+            <input name='test' required type="text" placeholder="Placeholder"/>  Testo<br />
+            <input name='email' required type="email"/> Email<br />
+            <input name='agree' type="checkbox"/> Io sono la label della checkbox<br />
+            <input name='color' type="color" /> Colore<br />
+            <input name='data' type="date" /> Data<br />
+            <input name='datetime' type="datetime" /> Data e tempo<br />
+            <select name='select'>
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+                <option>Option 4</option>
+            </select><br />
+            <textarea name='description' ></textarea> <br />
+            <button type="submit">Submit</button>
+        </form>
+        <a href='/api-doc.pdf' download title="Api documentation">Download api docs</a>
+        <a href='https://www.google.it' title="Google link" target="_blank">This is a link</a>
+        <a href='#theTable' title="Link List">Link to table</a>
+        <h1>Titolo 1</h1>  
+        <h2>Titolo 2</h2>  
+        <h3>Titolo 3</h3>  
+        <h4>Titolo 4</h4>  
+        <h5>Titolo 5</h5>  
+        <h6>Titolo 6</h6>  
+
+        <p>This is a text</p>
+
+       <p>Riga 1 <br /> riga 2</p>
+
+        <span>This is a <b>span</b></span><br />
+        <span>This is a <em>span</em></span><br />
+        <span>This is a <i>span</i></span><br />
+        <ul id='theList'>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+        </ul>
+        <ol>
+            <li>List item 1</li>
+            <li>List item 1</li>
+            <li>List item 1</li>
+        </ol>
+        <div>sfsdfsf</div>
+        <img 
+            src='image.jpg' 
+            alt='Squid game frame representation'
+
+        />
+        <video src="video.mp4" autoplay controls>
+
+        </video>
+        <h1>Tables</h1>
+        <table id='theTable'>
+            <thead>
+                <tr>
+                    <th>
+                        Da 
+                    </th>
+                    <th>
+                        A
+                    </th>
+                    <th>
+                        Esperienza
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>
+                        2021
+                    </th>
+                    <td>
+                        2021
+                    </td>
+                    <td>
+                        Tree school
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
 </html>
