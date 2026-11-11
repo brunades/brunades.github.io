@@ -1,0 +1,37 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="290"
+     viewBox="0 0 1200 290">
+
+  <rect width="1200" height="290" fill="#F1F0EA"/>
+
+  <text x="40" y="95"
+        font-family="Arial, sans-serif"
+        font-size="54"
+        font-weight="600"
+        fill="#292929">
+    I'm Bruna.
+  </text>
+
+  <text x="40" y="145"
+        font-family="Arial, sans-serif"
+        font-size="23"
+        fill="#555555">
+    A full-stack developer based in Italy.
+  </text>
+
+  <text x="40" y="195"
+        font-family="Arial, sans-serif"
+        font-size="19"
+        fill="#777777">
+    Building useful things, thinking critically about technology,
+  </text>
+
+  <text x="40" y="225"
+        font-family="Arial, sans-serif"
+        font-size="19"
+        fill="#777777">
+    and considering the world beyond the screen.
+  </text>
+
+</svg>
