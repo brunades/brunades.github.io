@@ -1,102 +1,53 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Bruna Contino</title>
-        <link 
-            rel="icon" 
-            href="img/favicon.ico"
-        >
-        <meta property="og:url"                content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
-        <meta property="og:type"               content="article" />
-        <meta property="og:title"              content="When Great Minds Don’t Think Alike" />
-        <meta property="og:description"        content="How much does culture influence creative thinking?" />
-        <meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
-        <script>
 
-        </script>
-    </head>
-    <body>
-        <form action="#" onsubmit=" ">
-            Questo è il form<br />
-            <input name='test' required type="text" placeholder="Placeholder"/>  Testo<br />
-            <input name='email' required type="email"/> Email<br />
-            <input name='agree' type="checkbox"/> Io sono la label della checkbox<br />
-            <input name='color' type="color" /> Colore<br />
-            <input name='data' type="date" /> Data<br />
-            <input name='datetime' type="datetime" /> Data e tempo<br />
-            <select name='select'>
-                <option>Option 1</option>
-                <option>Option 2</option>
-                <option>Option 3</option>
-                <option>Option 4</option>
-            </select><br />
-            <textarea name='description' ></textarea> <br />
-            <button type="submit">Submit</button>
-        </form>
-        <a href='/api-doc.pdf' download title="Api documentation">Download api docs</a>
-        <a href='https://www.google.it' title="Google link" target="_blank">This is a link</a>
-        <a href='#theTable' title="Link List">Link to table</a>
-        <h1>Titolo 1</h1>  
-        <h2>Titolo 2</h2>  
-        <h3>Titolo 3</h3>  
-        <h4>Titolo 4</h4>  
-        <h5>Titolo 5</h5>  
-        <h6>Titolo 6</h6>  
+<!-- TOP -->
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="./assets/top-dark.svg">
+  <img src="./assets/top-light.svg"
+    width="100%" height="20" alt="">
+</picture>
 
-        <p>This is a text</p>
+<!-- WEBSITE -->
+<a href="YOUR_WEBSITE_URL">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"
+      srcset="./assets/website-dark.svg">
+    <img src="./assets/website-light.svg"
+      width="100" height="18" alt="Visit my website">
+  </picture>
+</a>
 
-       <p>Riga 1 <br /> riga 2</p>
+<!-- LINKEDIN -->
+<a href="https://www.linkedin.com/in/bruna-contino-developer/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"
+      srcset="./assets/linkedin-dark.svg">
+    <img src="./assets/linkedin-light.svg"
+      width="100" height="18" alt="Visit my LinkedIn">
+  </picture>
+</a>
 
-        <span>This is a <b>span</b></span><br />
-        <span>This is a <em>span</em></span><br />
-        <span>This is a <i>span</i></span><br />
-        <ul id='theList'>
-            <li>List item 1</li>
-            <li>List item 2</li>
-            <li>List item 3</li>
-        </ul>
-        <ol>
-            <li>List item 1</li>
-            <li>List item 1</li>
-            <li>List item 1</li>
-        </ol>
-        <div>sfsdfsf</div>
-        <img 
-            src='image.jpg' 
-            alt='Squid game frame representation'
+<!-- FALLBACK -->
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="./assets/fallback-dark.svg">
+  <img src="./assets/fallback-light.svg"
+    width="420" alt="">
+</picture>
 
-        />
-        <video src="video.mp4" autoplay controls>
+<!-- MAIN -->
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="./assets/main-dark.svg">
+  <img src="./assets/main-light.svg"
+    width="100%" height="290"
+    alt="I'm Bruna. Full-stack developer interested in useful software and responsible technology.">
+</picture>
 
-        </video>
-        <h1>Tables</h1>
-        <table id='theTable'>
-            <thead>
-                <tr>
-                    <th>
-                        Da 
-                    </th>
-                    <th>
-                        A
-                    </th>
-                    <th>
-                        Esperienza
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>
-                        2021
-                    </th>
-                    <td>
-                        2021
-                    </td>
-                    <td>
-                        Tree school
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </body>
-</html>
+<!-- FOOTER -->
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="./assets/footer-dark.svg">
+  <img src="./assets/footer-light.svg"
+    width="100%" alt="">
+</picture>
